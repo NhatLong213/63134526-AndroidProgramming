@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Cau2_Appnauan</string>
+    //pasta
+    <string name="pastaIngredients">200-250g thịt bò (loại thăn lưng hoặc cạnh bò)
+Sốt Worcestershire
+Muối và tiêu
+Bơ hoặc dầu ô liu để chiên
+Rau xà lách, cà chua, hành tây, dưa chuột để trang trí
+Khoai tây để chiên</string>
+    <string name="pastaDesc">Chuẩn bị thịt bò: Ướt thịt bò với sốt Worcestershire, muối và tiêu. Để thịt ngấm gia vị trong khoảng 15-30 phút.
+Chế biến rau cải và khoai tây: Rửa sạch rau xà lách, cà chua, hành tây và dưa chuột. Kéo khoai tây thành sợi mỏng và chiên giòn trong dầu nóng.
+Chiên thịt bò: Nung nóng bơ hoặc dầu ô liu trong một chiếc chảo. Khi dầu đã nóng, chiên thịt bò trong khoảng 2-3 phút mỗi mặt hoặc cho đến khi thịt chín tới mức bạn mong muốn.</string>
+    //maggi
+    <string name="maggiIngredients">Tôm hùm
+Phô mai
+Bơ
+Tỏi
+Muối, tiêu
+Rau mùi tàu (tùy chọn)
+Chanh (để trang trí)
+</string>
+    <string name="maggieDesc">Chế biến phô mai: Hòa tan bơ và tỏi, thêm phô mai và hỗn hợp gia vị.
+Chế biến tôm hùm: Lột vỏ, nướng tôm hùm, rưới phô mai lên mặt.
+Nướng tôm hùm: Nướng trong lò ở 200°C khoảng 8-10 phút.
+Phục vụ: Trang trí với lát chanh và thưởng thức!!</string>
+    //cake
+    <string name="cakeIngredients">500g thịt gà (đùi hoặc ức gà)
+100ml rượu vang trắng hoặc rượu sake
+2-3 tép tỏi
+1 cọng hành tây
+2-3 cọng cà rốt
+Gừng tươi (tùy chọn)
+Muối, tiêu</string>
+    <string name="cakeDesc">Chuẩn bị gà: Rửa sạch và cắt miếng vừa ăn, rắc muối và tiêu.
+Chế biến gia vị: Kết hợp rượu vang trắng, tỏi, hành tây, gừng, muối và tiêu.
+Hấp gà: Rưới hỗn hợp gia vị lên gà, hấp trong 15-20 phút.
+Phục vụ: Trang trí và dọn nóng. Chúc bạn thưởng thức!</string>
+
+    <string name="pancakeIngredients">500g cua hoàng đế
+300ml bia (lager hoặc pilsner)
+2-3 tép tỏi, băm nhỏ
+1 cọng hành tây, băm nhỏ
+Gừng tươi, băm nhỏ
+Ớt sừng (tùy chọn)
+Húng quế (tùy chọn)
+Muối, tiêu</string>
+    <string name="pancakeDesc">Chuẩn bị cua: Rửa sạch và loại bỏ vỏ.
+Chế biến gia vị: Kết hợp bia, tỏi, hành tây, gừng, ớt sừng, húng quế, muối và tiêu trong nồi hấp.
+Hấp cua: Đặt cua vào nồi hấp, đậy nắp và hấp trong khoảng 15-20 phút.
+Phục vụ: Trang trí và thưởng thức!</string>
+
+    <string name="pizzaIngredients">500g cá thu
+2-3 quả cà chua, thái lát
+2-3 tép tỏi, băm nhỏ
+1 củ hành tây, băm nhỏ
+1 ớt sừng, băm nhỏ (tùy chọn)
+1/2 cốc nước cốt dừa
+Dầu ăn
+Dầu hào
+Đường
+Muối, tiêu</string>
+    <string name="pizzaDesc">Chế biến sốt cà: Phi tỏi và hành tây trong dầu ăn, thêm cà chua, ớt, nước cốt dừa, dầu hào, đường, muối, tiêu. Nấu cho cà chua mềm và sốt đặc.
+Chiên cá: Chiên cá cho vàng hai mặt.
+Kết hợp: Đặt cá lên đĩa, rưới sốt cà lên trên.
+Phục vụ: Dọn nóng kèm cơm trắng. Chúc ngon miệng!</string>
+
+    <string name="burgerIngredients">500g sườn heo
+3-4 thìa súp mật ong
+2-3 tép tỏi, băm nhỏ
+2 thìa súp nước tương
+1 thìa súp dầu mè
+1 thìa súp dầu olive
+1 thìa súp nước cốt chanh
+1/2 thìa súp muối
+1/2 thìa súp tiêu</string>
+    <string name="burgerDesc">Marinate sườn: Phết mật ong, tỏi, nước tương, dầu mè, dầu olive, nước cốt chanh, muối và tiêu lên sườn heo, để ngấm ít nhất 30 phút.
+Nướng: Nướng sườn trên lưới hoặc chảo nướng khoảng 15-20 phút hoặc cho đến khi chín và caramelized.
+Phục vụ: Trang trí và thưởng thức!</string>
+
+    <string name="friesIngredients">500g mực tươi
+1/2 chén bột mỳ
+1/2 chén bột năng
+2-3 quả trứng gà
+1/2 thìa cà phê muối
+1/2 thìa cà phê tiêu đen
+Dầu ăn</string>
+    <string name="friesDesc">Rửa và cắt mực.
+Chuẩn bị hỗn hợp bột và trứng.
+Quấn mực trong bột, trứng, rồi lại bột.
+Chiên đến khi vàng giòn.
+Vớt ra, để ráo dầu.
+Thưởng thức!lll</string>
+</resources>
