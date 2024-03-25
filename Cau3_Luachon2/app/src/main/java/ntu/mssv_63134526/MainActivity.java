@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public void onFacebookIconClicked(View view) {
+        // Mở liên kết đến trang Facebook cá nhân của bạn
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/nhatlong2103/"));
+        startActivity(intent);
+    }
 
 
 }
