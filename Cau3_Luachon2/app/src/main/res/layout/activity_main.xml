@@ -74,5 +74,18 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/nameTextView" />
+ <TextView
+        android:id="@+id/introTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Quê quán: Ninh Hòa - Khánh Hòa - Việt Nam"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
