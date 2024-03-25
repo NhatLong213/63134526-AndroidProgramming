@@ -72,9 +72,32 @@ public class UI extends JFrame {
         textField_1.setColumns(10);
         textField_1.setBounds(173, 123, 154, 26);
         panel_1.add(textField_1);
+
+        JLabel lblNewLabel_1_1_1 = new JLabel("Giới tính");
+        lblNewLabel_1_1_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+        lblNewLabel_1_1_1.setBounds(73, 190, 55, 38);
+        panel_1.add(lblNewLabel_1_1_1);
+
+        JRadioButton rdbtnNam = new JRadioButton("Nam");
+        rdbtnNam.setFont(new Font("Tahoma", Font.PLAIN, 15));
+        rdbtnNam.setBounds(171, 196, 70, 26);
+        panel_1.add(rdbtnNam);
+
+        JRadioButton rdbtnNu = new JRadioButton("Nữ");
+        rdbtnNu.setFont(new Font("Tahoma", Font.PLAIN, 15));
+        rdbtnNu.setBounds(271, 196, 70, 26);
+        panel_1.add(rdbtnNu);
+
+        JRadioButton rdbtnKhac = new JRadioButton("Khác");
+        rdbtnKhac.setFont(new Font("Tahoma", Font.PLAIN, 15));
+        rdbtnKhac.setBounds(364, 196, 70, 26);
+        panel_1.add(rdbtnKhac);
         
         // Tạo một nhóm cho các JRadioButton
         ButtonGroup group = new ButtonGroup();
+        group.add(rdbtnNam);
+        group.add(rdbtnNu);
+        group.add(rdbtnKhac);
 
         lblNewLabel_3 = new JLabel(""); // Khởi tạo lblNewLabel_3
         lblNewLabel_3.setBounds(258, 274, 197, 23);
