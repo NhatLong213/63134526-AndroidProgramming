@@ -22,6 +22,7 @@ public class UI extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private JPanel contentPane;
+    private JLabel lblNewLabel_3; // Thêm biến thành viên cho lblNewLabel_3
 
  
 
@@ -43,10 +44,19 @@ public class UI extends JFrame {
         lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 20));
         lblNewLabel.setBounds(176, 10, 184, 36);
         panel.add(lblNewLabel);
+
+        JPanel panel_1 = new JPanel();
+        panel_1.setBackground(new Color(255, 255, 224));
+        panel_1.setBounds(10, 69, 492, 436);
+        contentPane.add(panel_1);
+        panel_1.setLayout(null);
         
         // Tạo một nhóm cho các JRadioButton
         ButtonGroup group = new ButtonGroup();
+
+        lblNewLabel_3 = new JLabel(""); // Khởi tạo lblNewLabel_3
+        lblNewLabel_3.setBounds(258, 274, 197, 23);
+        panel_1.add(lblNewLabel_3);
     }
 }
-
 
