@@ -84,6 +84,35 @@ public class UI extends JFrame {
         textField_2.setBounds(173, 273, 75, 26);
         panel_1.add(textField_2);
 
+        JButton btnTinh = new JButton("Tính ");
+        btnTinh.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Lấy giá trị chiều cao và cân nặng từ các ô nhập liệu
+                double chieuCao = Double.parseDouble(textField.getText());
+                double canNang = Double.parseDouble(textField_1.getText());
+
+                // Tính chỉ số BMI
+                double bmi = canNang / (chieuCao * chieuCao);
+
+                // Hiển thị kết quả trong textField_2
+                textField_2.setText(String.format("%.2f", bmi));
+
+                // Hiển thị thông báo về tình trạng cơ thể
+                if (bmi < 18.5) {
+                    lblNewLabel_3.setText("Gầy, cần bổ sung dinh dưỡng!");
+                } else if (bmi >= 18.5 && bmi < 25) {
+                    lblNewLabel_3.setText("Bình thường, sức khỏe tốt!");
+                } else if (bmi >= 25 && bmi < 30) {
+                    lblNewLabel_3.setText("Thừa cân, chế độ dinh dưỡng xấu!");
+                } else {
+                    lblNewLabel_3.setText("Béo phì, cần điều trị ngay!");
+                }
+            }
+        });
+        btnTinh.setFont(new Font("Tahoma", Font.PLAIN, 16));
+        btnTinh.setBounds(70, 369, 85, 26);
+        panel_1.add(btnTinh);
+
         JLabel lblNewLabel_1_1_1 = new JLabel("Giới tính");
         lblNewLabel_1_1_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
         lblNewLabel_1_1_1.setBounds(73, 190, 55, 38);
@@ -109,6 +138,34 @@ public class UI extends JFrame {
         group.add(rdbtnNam);
         group.add(rdbtnNu);
         group.add(rdbtnKhac);
+
+
+        JButton btnXoa = new JButton("Xóa");
+        btnXoa.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	  // Xóa giá trị trong các ô nhập liệu
+                textField.setText("");
+                textField_1.setText("");
+                textField_2.setText("");
+
+                // Đặt lại giá trị của label lblNewLabel_3
+                lblNewLabel_3.setText("");
+            }
+        });
+        btnXoa.setFont(new Font("Tahoma", Font.PLAIN, 16));
+        btnXoa.setBounds(205, 369, 85, 26);
+        panel_1.add(btnXoa);
+
+        JButton btnThoat = new JButton("Thoát");
+        btnThoat.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		 // Đóng chương trình
+                System.exit(0);
+        	}
+        });
+        btnThoat.setFont(new Font("Tahoma", Font.PLAIN, 16));
+        btnThoat.setBounds(336, 369, 85, 26);
+        panel_1.add(btnThoat);
 
         lblNewLabel_3 = new JLabel(""); // Khởi tạo lblNewLabel_3
         lblNewLabel_3.setBounds(258, 274, 197, 23);
