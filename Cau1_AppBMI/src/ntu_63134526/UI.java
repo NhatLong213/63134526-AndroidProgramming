@@ -24,6 +24,7 @@ public class UI extends JFrame {
     private JPanel contentPane;
     private JTextField textField;
     private JTextField textField_1;
+    private JTextField textField_2;
     private JLabel lblNewLabel_3; // Thêm biến thành viên cho lblNewLabel_3
 
  
@@ -63,6 +64,11 @@ public class UI extends JFrame {
         lblNewLabel_1_1.setBounds(43, 114, 95, 38);
         panel_1.add(lblNewLabel_1_1);
 
+        JLabel lblNewLabel_1_2 = new JLabel("BMI");
+        lblNewLabel_1_2.setFont(new Font("Tahoma", Font.BOLD, 15));
+        lblNewLabel_1_2.setBounds(92, 264, 38, 38);
+        panel_1.add(lblNewLabel_1_2);
+
         textField = new JTextField();
         textField.setBounds(170, 51, 157, 26);
         panel_1.add(textField);
@@ -72,6 +78,11 @@ public class UI extends JFrame {
         textField_1.setColumns(10);
         textField_1.setBounds(173, 123, 154, 26);
         panel_1.add(textField_1);
+
+        textField_2 = new JTextField();
+        textField_2.setColumns(10);
+        textField_2.setBounds(173, 273, 75, 26);
+        panel_1.add(textField_2);
 
         JLabel lblNewLabel_1_1_1 = new JLabel("Giới tính");
         lblNewLabel_1_1_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
