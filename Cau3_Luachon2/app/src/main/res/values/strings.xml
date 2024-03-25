@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cau3_Luachon2</string>
+    <string name="avatar_description">Mô tả về avatar</string>
+    <string name="facebook_description">Mô tả về Facebook</string>
+    <string name="zalo_description">Mô tả về Zalo</string>
+    <string name="instagram_description">Mô tả về Instagram</string>
+
+</resources>
