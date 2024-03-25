@@ -170,6 +170,17 @@ public class UI extends JFrame {
         lblNewLabel_3 = new JLabel(""); // Khởi tạo lblNewLabel_3
         lblNewLabel_3.setBounds(258, 274, 197, 23);
         panel_1.add(lblNewLabel_3);
+
+        JPanel panel_2 = new JPanel();
+        panel_2.setBackground(new Color(250, 235, 215));
+        panel_2.setBounds(10, 506, 492, 174);
+        contentPane.add(panel_2);
+        panel_2.setLayout(null);
+
+        JLabel lblNewLabel_2 = new JLabel("");
+        lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\HP\\Downloads\\bmi.jpeg"));
+        lblNewLabel_2.setBounds(92, 0, 304, 168);
+        panel_2.add(lblNewLabel_2);
     }
 }
 
