@@ -87,6 +87,26 @@ public class UI extends JFrame {
         JButton btnTinh = new JButton("Tính ");
         btnTinh.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                // Lấy giá trị chiều cao và cân nặng từ các ô nhập liệu
+                double chieuCao = Double.parseDouble(textField.getText());
+                double canNang = Double.parseDouble(textField_1.getText());
+
+                // Tính chỉ số BMI
+                double bmi = canNang / (chieuCao * chieuCao);
+
+                // Hiển thị kết quả trong textField_2
+                textField_2.setText(String.format("%.2f", bmi));
+
+                // Hiển thị thông báo về tình trạng cơ thể
+                if (bmi < 18.5) {
+                    lblNewLabel_3.setText("Gầy, cần bổ sung dinh dưỡng!");
+                } else if (bmi >= 18.5 && bmi < 25) {
+                    lblNewLabel_3.setText("Bình thường, sức khỏe tốt!");
+                } else if (bmi >= 25 && bmi < 30) {
+                    lblNewLabel_3.setText("Thừa cân, chế độ dinh dưỡng xấu!");
+                } else {
+                    lblNewLabel_3.setText("Béo phì, cần điều trị ngay!");
+                }
             }
         });
         btnTinh.setFont(new Font("Tahoma", Font.PLAIN, 16));
