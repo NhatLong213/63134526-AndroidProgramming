@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
+        public void onInstagramIconClicked(View view) {
+        // Mở liên kết đến trang Instagram cá nhân của bạn
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/long_nguyen213/"));
+        startActivity(intent);
+    }
 
 }
